@@ -38,7 +38,12 @@ nav ul {
 }
 nav ul a {
     text-decoration: none;
-    color: black
+    color: black;
+    transition: .3s
+}
+nav ul a:hover {
+    transition: .3s;
+    color: #bce702;
 }
 nav ul li {
     margin: 0 0 1em 0;
@@ -63,8 +68,8 @@ nav ul li {
     justify-content: space-between;
 }
 .icon {
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     color: #7c7c7c;
 }
 .img {
